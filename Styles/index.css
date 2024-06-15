@@ -74,7 +74,7 @@
     flex-direction: column;
 }
 .subcontainerBody > .containerSliderBody{
-    width: 98%;
+    width: 90%;
     height: 300px;
     background-color: blue;
     display: flex;
@@ -91,7 +91,7 @@
     animation: cambio 16s infinite;
 }
 .containerImgSlider > .imgSliderBody{
-    width: 23rem;
+    width: 24.7rem;
     height: 18rem;
 }
 @keyframes cambio
@@ -99,12 +99,12 @@
     0%{margin-left: 0;}
     20%{margin-left: 0;}
 
-    25%{margin-left: -210%;} /*distancia para que aparezca la otra img*/
-    45%{margin-left: -210%;} /*distancia para la muestre toda la img*/
+    25%{margin-left: -230%;} /*distancia para que aparezca la otra img*/
+    45%{margin-left: -230%;} /*distancia para la muestre toda la img*/
 
-    50%{margin-left: -420%;}
-    70%{margin-left: -420%;}
+    50%{margin-left: -460%;}
+    70%{margin-left: -460%;}
 
-    75%{margin-left: -620%;}
-    100%{margin-left: -620%;}
+    75%{margin-left: -680%;}
+    100%{margin-left: -680%;}
 }
