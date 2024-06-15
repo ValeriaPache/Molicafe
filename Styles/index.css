@@ -108,3 +108,23 @@
     75%{margin-left: -680%;}
     100%{margin-left: -680%;}
 }
+.subcontainerBody > .containerLemaBody{
+    width: 90%;
+    height: 55px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLemaBody > .subcontainerLemaBody{
+    width: 98%;
+    height: 40px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerLemaBody > .lemaBody{
+    font-family: castellar;
+    font-size: 0.81rem;
+}
