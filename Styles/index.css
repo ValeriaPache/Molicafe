@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*                          container           Header                */
+.containerHeader{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 87, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHeader > .subcontainerHeader{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerHeader > .containerLogoHeader{
+    width: 20%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containerLogoHeader > .imgHeader{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+}
+.subcontainerHeader > .containerTittleHeader{
+    width: 46%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+.containerTittleHeader > .tittleHeader{
+    font-size: 1.5rem;
+}
+.subcontainerHeader > .containerMenuHeader{
+    width: 30%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLink{
+    list-style: none;
+}
+.containerLink > a{
+    color: burlywood;
+}
