@@ -565,7 +565,7 @@ nav > ul{
     flex-wrap: wrap;
 }
 .subcontainerFooter > .containerMail{
-    width: 30%;
+    width: 35%;
     height: 35px;
     display: flex;
     justify-content: center;
