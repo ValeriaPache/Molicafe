@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*                          container           Header                */
+.containerHeader{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 87, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHeader > .subcontainerHeader{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerHeader > .containerLogoHeader{
+    width: 20%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containerLogoHeader > .imgHeader{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+}
+.subcontainerHeader > .containerTittleHeader{
+    width: 46%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+.containerTittleHeader > .tittleHeader{
+    font-size: 1.5rem;
+}
+.subcontainerHeader > .containerMenuHeader{
+    width: 30%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLink{
+    list-style: none;
+}
+.containerLink > a{
+    color: burlywood;
+}
+/*                         Container Footer                          */
+.containerFooter{
+    width: 100%;
+    height: 175px;
+    background-image: url(../Assents/img/fotter.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFooter > .subcontainerFooter{
+    width: 98%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.subcontainerFooter > .containerMail{
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMail > .subcontainerMail{
+    width: 95%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerMail > .mailFooter{
+    color: white;
+    font-size: 1.1rem;
+}
+.subcontainerFooter > .containerTittleAndIcons{
+    width: 80%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTittleAndIcons > .containerTittleFooter{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleFooter > .tittleFooter{
+    color: white;
+    font-size: 1.5rem;
+}
+.containerTittleAndIcons > .containerIcons{
+    width: 90%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerIcons > .subcontainerIcons{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerIcons > .iconFooter{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+}
+.subcontainerFooter > .containerPhoneNumber{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerPhoneNumber > .subcontainerPhoneNumber{
+    width: 99%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerPhoneNumber > .PhoneNumbers{
+    color: white;
+    font-size: 1.1rem;
+}

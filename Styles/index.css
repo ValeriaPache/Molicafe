@@ -3,63 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*                          container           Header                */
-.containerHeader{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(17, 87, 76);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerHeader > .subcontainerHeader{
-    width: 98%;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.subcontainerHeader > .containerLogoHeader{
-    width: 20%;
-    height: 4.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.containerLogoHeader > .imgHeader{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50px;
-}
-.subcontainerHeader > .containerTittleHeader{
-    width: 46%;
-    height: 4.5rem;
-    display: flex;
-    align-items: center;
-}
-.containerTittleHeader > .tittleHeader{
-    font-size: 1.5rem;
-}
-.subcontainerHeader > .containerMenuHeader{
-    width: 30%;
-    height: 4.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerLink{
-    list-style: none;
-}
-.containerLink > a{
-    color: burlywood;
-}
-
 /*                                     Container Body                   */
 .containerBody{
     width: 100%;
     height: 1530px;
-    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +14,6 @@
 .subcontainerBody{
     width: 98%;
     height: 1500px;
-    background-color: aquamarine;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,7 +23,6 @@
 .subcontainerBody > .containerSliderBody{
     width: 90%;
     height: 300px;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +32,6 @@
 .containerSliderBody > .containerImgSlider{
     width: 98%;
     height: 290px;
-    background-color: antiquewhite;
     display: flex;
     animation: cambio 16s infinite;
 }
@@ -113,7 +57,6 @@
 .subcontainerBody > .containerLemaBody{
     width: 90%;
     height: 55px;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +64,6 @@
 .containerLemaBody > .subcontainerLemaBody{
     width: 98%;
     height: 40px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +77,6 @@
 .subcontainerBody > .containerTittleBody{
     width: 90%;
     height: 70px;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +84,6 @@
 .containerTittleBody > .subcontainerTittleBody{
     width: 98%;
     height: 60px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +110,6 @@
 .card-content-index > .card-flip-index {
     width: 90%;
     height: 330px;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,10 +181,7 @@
     background: greenyellow;
     box-shadow: 1px 1px 20px -10px black;
     border-radius: 10px;
-
-
 }
-
 .bg-index {
     width: 100%;
     height: 100%;
@@ -253,100 +189,4 @@
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-}
-/*                         Container Footer                          */
-.containerFooter{
-    width: 100%;
-    height: 175px;
-    background-image: url(../Assents/img/logofooter4.jpg);
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerFooter > .subcontainerFooter{
-    width: 98%;
-    height: 170px;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-.subcontainerFooter > .containerMail{
-    width: 80%;
-    height: 35px;
-    background-color: rgb(0, 255, 47);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerMail > .subcontainerMail{
-    width: 95%;
-    height: 25px;
-    background-color: blue;
-}
-.subcontainerMail > .mailFooter{
-    color: white;
-    font-size: 1.1rem;
-}
-.subcontainerFooter > .containerTittleAndIcons{
-    width: 80%;
-    height: 85px;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-.containerTittleAndIcons > .containerTittleFooter{
-    width: 90%;
-    height: 30px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerTittleFooter > .tittleFooter{
-    color: white;
-    font-size: 1.5rem;
-}
-.containerTittleAndIcons > .containerIcons{
-    width: 90%;
-    height: 45px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerIcons > .subcontainerIcons{
-    width: 20%;
-    height: 40px;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.subcontainerIcons > .iconFooter{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50rem;
-}
-.subcontainerFooter > .containerPhoneNumber{
-    width: 80%;
-    height: 30px;
-    background-color: rgb(255, 0, 183);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.containerPhoneNumber > .subcontainerPhoneNumber{
-    width: 99%;
-    height: 24px;
-    background-color: blue;
-}
-.subcontainerPhoneNumber > .PhoneNumbers{
-    color: white;
 }
