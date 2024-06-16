@@ -73,6 +73,7 @@
     align-items: center;
     flex-direction: column;
 }
+/*                             Container Slider Body                   */
 .subcontainerBody > .containerSliderBody{
     width: 90%;
     height: 300px;
@@ -108,6 +109,7 @@
     75%{margin-left: -680%;}
     100%{margin-left: -680%;}
 }
+/*                                     Container Lema Body                   */
 .subcontainerBody > .containerLemaBody{
     width: 90%;
     height: 55px;
@@ -127,4 +129,63 @@
 .subcontainerLemaBody > .lemaBody{
     font-family: castellar;
     font-size: 0.81rem;
+    text-align: center;
+}
+/*                           Container Tittle Products Body                   */
+.subcontainerBody > .containerTittleBody{
+    width: 90%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleBody > .subcontainerTittleBody{
+    width: 98%;
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerTittleBody > .tittleBody{
+    font-family: castellar;
+    font-size: 1.2rem;
+    color: rgb(179, 148, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*                               Container cards Body                   */
+.subcontainerBody > .containerCardsBody{
+    width: 90%;
+    height: 1500px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCardsBody > .subcontainerCardBody{
+    width: 95%;
+    height: 1480px;
+    background-color: rgb(179, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerCardBody > .containercard{
+    width: 99%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containercard > .subcontainerCard{
+    width: 95%;
+    height: 285px;
+    background-image: url(../Assents/img/cardbc4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
 }
