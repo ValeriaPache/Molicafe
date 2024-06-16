@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 .containerBodyProducts > .subcontainerBodyProducts{
     width: 98%;
@@ -19,13 +18,11 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: beige;
 }
 /*                                 container  Tittle Body               */
 .subcontainerBodyProducts > .containerTittleBodyProducts{
     width: 90%;
     height: 3rem;
-    background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +30,6 @@
 .containerTittleBodyProducts > .subcontainerTittleBodyProducts{
     width: 80%;
     height: 2rem;
-    background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,19 +41,17 @@
 .subcontainerBodyProducts > .containerTittlecardBodyProducts{
     width: 90%;
     height: 3rem;
-    background-color: brown;
     display: flex;
     align-items: center;
 }
 .containerTittlecardBodyProducts > .subcontainerTittleCardProducts{
     width: 80%;
     height: 2rem;
-    background-color: aliceblue;
     display: flex;
     align-items: center;
 }
 .subcontainerTittleCardProducts > .tittleCardProducts{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -71,7 +65,6 @@
     justify-content: space-around; /* este es para centrar de forma vertical */
     align-items: center; /* este es para que se centre de forma horizontal */
     flex-direction: column;
-    background-color: aqua;
 }
 .card-content-index > .card-flip-index {
     width: 90%;
@@ -80,7 +73,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: yellow;
 }
 .card-flip-index:hover .card-index {
        transform: rotateY(180deg); /*Este funciona para saber cuantos gardos giran las card*/
@@ -162,7 +154,6 @@
     justify-content: space-around; /* este es para centrar de forma vertical */
     align-items: center; /* este es para que se centre de forma horizontal */
     flex-direction: column;
-    background-color: rgb(255, 0, 179);
 }
 .card-content-indexBF > .card-flip-index {
     width: 90%;
@@ -171,5 +162,190 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: yellow;
+}
+@media screen and (min-width: 480px) and (max-width: 1040px) {
+    /*                               Container cards Body                   */
+.card-flip-index > .card-index{
+    width: 90%;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d; /* este es para dar efecto 3d a las card*/
+    transition: 600ms; /*este es para el tiempo de giro de las card*/  
+}
+/*                      container cards Bebidas Frias                 */
+.card-content-indexBF > .card-flip-index {
+    width: 90%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    /*                                  container  Body                */
+.containerBodyProducts{
+    width: 100%;
+    height: 4350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerBodyProducts > .subcontainerBodyProducts{
+    width: 98%;
+    height: 4300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/*                                 container  Tittle Body               */
+.subcontainerBodyProducts > .containerTittleBodyProducts{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleBodyProducts > .subcontainerTittleBodyProducts{
+    width: 80%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerTittleBodyProducts > .tittleBodyProducts{
+    font-size: 3rem;
+}
+/*                      container Tittle Bebidas Calientes              */
+.subcontainerBodyProducts > .containerTittlecardBodyProducts{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.containerTittlecardBodyProducts > .subcontainerTittleCardProducts{
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.subcontainerTittleCardProducts > .tittleCardProducts{
+    font-size: 2rem;
+}
+
+    /*                               Container cards Body                   */
+.subcontainerBodyProducts > .card-content-index{
+    width: 90%; /*este es para aplicar el ancho maximo del contenedor */
+    height: 1550px;
+    background: rgb(255, 255, 255);;/* este es para asignar un color de fondo */ 
+    display: flex; /*este es para que los contenedores se organicen de forma horizontal */
+    justify-content: space-around; /* este es para centrar de forma vertical */
+    align-items: center; /* este es para que se centre de forma horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-content-index > .card-flip-index {
+    width: 49%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-flip-index:hover .card-index {
+       transform: rotateY(180deg); /*Este funciona para saber cuantos gardos giran las card*/
+    
+}
+.card-flip-index > .card-index{
+    width: 90%;
+    height: 330px;
+    position: relative;
+    transform-style: preserve-3d; /* este es para dar efecto 3d a las card*/
+    transition: 600ms; /*este es para el tiempo de giro de las card*/   
+}
+.card-index > .card-delantera-index,
+.card-atras-index {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /*este es para mantener la cara de atras oculta sin dañar la de adelante */
+    transform-style: preserve-3d; /* este es para que se pege la card delantera con la atrasera y se vea un espacio entere ellas*/
+  
+}
+.card-index >.card-delantera-index {
+    background-size: cover;
+    background-position: center;
+
+}
+.card-index > .card-atras-index {
+    transform: rotateY(180deg);
+    background-color:burlywood;;
+    
+}
+.card-delantera-index > .contenido-card-delantera-index {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 229, 218);
+    transform: translateZ(65px);/*este es para que no le afecte la edicion de la imagen a loa letra */
+}
+.contenido-card-delantera-index > .tittleFrontCard{
+    font-size: 2rem;
+}
+.card-atras-index > .contenido-card-atras-index {
+    padding: 20px;
+    text-align: center;
+    transform: translateZ(65px);
+}
+.contenido-card-atras-index p {
+    font-size: 25px;
+}
+.contenido-card-atras-index > .tittleCard{
+    font-size: 30px;
+}
+.contenido-card-atras-index input {
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background: greenyellow;
+    box-shadow: 1px 1px 20px -10px black;
+    border-radius: 10px;
+}
+.bg-index {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*                      container cards Bebidas Frias                 */
+.subcontainerBodyProducts > .card-content-indexBF{
+    width: 90%; /*este es para aplicar el ancho maximo del contenedor */
+    height: 760px;
+    background: rgb(255, 255, 255);;/* este es para asignar un color de fondo */ 
+    display: flex; /*este es para que los contenedores se organicen de forma horizontal */
+    justify-content: space-around; /* este es para centrar de forma vertical */
+    align-items: center; /* este es para que se centre de forma horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-content-indexBF > .card-flip-index {
+    width: 49%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 }
