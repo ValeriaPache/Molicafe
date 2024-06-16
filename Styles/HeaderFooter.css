@@ -324,6 +324,324 @@ nav > ul{
 
 
 
+@media screen and (max-width: 1555px) and (min-width: 738px) {
+    /*                          container           Header                */
+.containerHeader{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 87, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHeader > .subcontainerHeader{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerHeader > .containerLogoHeader{
+    width: 20%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containerLogoHeader > .imgHeader{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+}
+.subcontainerHeader > .containerTittleHeader{
+    width: 46%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+.containerTittleHeader > .tittleHeader{
+    font-size: 1.5rem;
+}
+.subcontainerHeader > .containerMenuHeader{
+    width: 30%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMenuHeader nav{
+    width: 100%;
+    height: 1.5rem;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.containerLink > a{
+    color: burlywood;
+}
+/*                         Container Footer                          */
+.containerFooter{
+    width: 100%;
+    height: 175px;
+    background-image: url(../Assents/img/fotter.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFooter > .subcontainerFooter{
+    width: 98%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.subcontainerFooter > .containerMail{
+    width: 40%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMail > .subcontainerMail{
+    width: 95%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerMail > .mailFooter{
+    color: white;
+    font-size: 1.1rem;
+}
+.subcontainerFooter > .containerTittleAndIcons{
+    width: 20%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTittleAndIcons > .containerTittleFooter{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleFooter > .tittleFooter{
+    color: white;
+    font-size: 1.5rem;
+}
+.containerTittleAndIcons > .containerIcons{
+    width: 90%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerIcons > .subcontainerIcons{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerIcons > .iconFooter{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+}
+.subcontainerFooter > .containerPhoneNumber{
+    width: 35%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerPhoneNumber > .subcontainerPhoneNumber{
+    width: 99%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerPhoneNumber > .PhoneNumbers{
+    color: white;
+    font-size: 1.1rem;
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1559px) and (min-width: 975px) {
+    /*                          container           Header                */
+.containerHeader{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(17, 87, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHeader > .subcontainerHeader{
+    width: 98%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerHeader > .containerLogoHeader{
+    width: 20%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLogoHeader > .imgHeader{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+}
+.subcontainerHeader > .containerTittleHeader{
+    width: 46%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
+.containerTittleHeader > .tittleHeader{
+    font-size: 2.5rem;
+}
+.subcontainerHeader > .containerMenuHeader{
+    width: 30%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMenuHeader nav{
+    width: 100%;
+    height: 2rem;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.containerLink > a{
+    font-size: 1.7rem;
+    color: burlywood;
+}
+/*                         Container Footer                          */
+.containerFooter{
+    width: 100%;
+    height: 175px;
+    background-image: url(../Assents/img/fotter.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerFooter > .subcontainerFooter{
+    width: 98%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.subcontainerFooter > .containerMail{
+    width: 30%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMail > .subcontainerMail{
+    width: 95%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerMail > .mailFooter{
+    color: white;
+    font-size: 1.5rem;
+}
+.subcontainerFooter > .containerTittleAndIcons{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTittleAndIcons > .containerTittleFooter{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleFooter > .tittleFooter{
+    color: white;
+    font-size: 2rem;
+}
+.containerTittleAndIcons > .containerIcons{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerIcons > .subcontainerIcons{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subcontainerIcons > .iconFooter{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+}
+.subcontainerFooter > .containerPhoneNumber{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerPhoneNumber > .subcontainerPhoneNumber{
+    width: 99%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerPhoneNumber > .PhoneNumbers{
+    color: white;
+    font-size: 1.5rem;
+}
+}
+
+
+
 
 
 

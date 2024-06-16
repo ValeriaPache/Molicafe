@@ -419,3 +419,286 @@ background-color: yellow;
     background: rgba(0, 0, 0, 0.5);
 }
 }
+
+
+
+
+
+
+@media screen and (max-width: 1555px) and (min-width: 738px) {
+    /*                                     Container Body                   */
+.containerBody{
+    width: 100%;
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerBody{
+    width: 98%;
+    height: 960px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/*                               Container cards Body                   */
+.subcontainerBody > .card-content-index{
+    width: 90%; /*este es para aplicar el ancho maximo del contenedor */
+    height: 400px;
+    background: rgb(255, 255, 255);;/* este es para asignar un color de fondo */ 
+    display: flex; /*este es para que los contenedores se organicen de forma horizontal */
+    justify-content: space-around; /* este es para centrar de forma vertical */
+    align-items: center; /* este es para que se centre de forma horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-content-index > .card-flip-index {
+    width: 32%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-flip-index:hover .card-index {
+       transform: rotateY(180deg); /*Este funciona para saber cuantos gardos giran las card*/
+    
+}
+.card-flip-index > .card-index{
+    width: 90%;
+    height: 290px;
+    position: relative;
+    transform-style: preserve-3d; /* este es para dar efecto 3d a las card*/
+    transition: 600ms; /*este es para el tiempo de giro de las card*/   
+}
+.card-index > .card-delantera-index,
+.card-atras-index {
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /*este es para mantener la cara de atras oculta sin dañar la de adelante */
+    transform-style: preserve-3d; /* este es para que se pege la card delantera con la atrasera y se vea un espacio entere ellas*/
+}
+.card-index >.card-delantera-index {
+    background-size: cover;
+    background-position: center;
+}
+.card-index > .card-atras-index {
+    transform: rotateY(180deg);
+    background-color:burlywood;
+    width: 100%;
+    height: 100%;
+}
+.card-delantera-index > .contenido-card-delantera-index {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 229, 218);
+    transform: translateZ(65px);/*este es para que no le afecte la edicion de la imagen a loa letra */
+}
+.card-atras-index > .contenido-card-atras-index {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    transform: translateZ(65px);
+}
+.contenido-card-atras-index p {
+    font-size: 20px;
+}
+.contenido-card-atras-index > .tittleCard{
+    font-size: 19px;
+}
+.contenido-card-atras-index input {
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background: greenyellow;
+    box-shadow: 1px 1px 2px -0px black;
+    border-radius: 10px;
+}
+.bg-index {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+}
+
+
+
+
+@media screen and (max-width: 1559px) and (min-width: 975px) {
+    /*                                     Container Body                   */
+.containerBody{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerBody{
+    width: 98%;
+    height: 960px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+/*                                     Container Lema Body                   */
+.subcontainerBody > .containerLemaBody{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLemaBody > .subcontainerLemaBody{
+    width: 98%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerLemaBody > .lemaBody{
+    font-family: castellar;
+    font-size: 1.7rem;
+    text-align: center;
+}
+/*                           Container Tittle Products Body                   */
+.subcontainerBody > .containerTittleBody{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerTittleBody > .subcontainerTittleBody{
+    width: 98%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainerTittleBody > .tittleBody{
+    font-family: castellar;
+    font-size: 2rem;
+    color: rgb(179, 148, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*                               Container cards Body                   */
+.subcontainerBody > .card-content-index{
+    width: 90%; /*este es para aplicar el ancho maximo del contenedor */
+    height: 490px;
+    background: rgb(255, 255, 255);/* este es para asignar un color de fondo */ 
+    display: flex; /*este es para que los contenedores se organicen de forma horizontal */
+    justify-content: space-around; /* este es para centrar de forma vertical */
+    align-items: center; /* este es para que se centre de forma horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-content-index > .card-flip-index {
+    width: 32%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-flip-index:hover .card-index {
+       transform: rotateY(180deg); /*Este funciona para saber cuantos gardos giran las card*/
+    
+}
+.card-flip-index > .card-index{
+    width: 90%;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d; /* este es para dar efecto 3d a las card*/
+    transition: 600ms; /*este es para el tiempo de giro de las card*/   
+}
+.card-index > .card-delantera-index,
+.card-atras-index {
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /*este es para mantener la cara de atras oculta sin dañar la de adelante */
+    transform-style: preserve-3d; /* este es para que se pege la card delantera con la atrasera y se vea un espacio entere ellas*/
+}
+.card-index >.card-delantera-index {
+    background-size: cover;
+    background-position: center;
+}
+.card-index > .card-atras-index {
+    transform: rotateY(180deg);
+    background-color:burlywood;
+    width: 100%;
+    height: 100%;
+}
+.card-delantera-index > .contenido-card-delantera-index {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 229, 218);
+    transform: translateZ(65px);/*este es para que no le afecte la edicion de la imagen a loa letra */
+}
+.contenido-card-delantera-index > .tittleFrontCard{
+    font-size: 3rem;
+}
+.card-atras-index > .contenido-card-atras-index {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    transform: translateZ(65px);
+}
+.contenido-card-atras-index p {
+    font-size: 30px;
+}
+.contenido-card-atras-index > .tittleCard{
+    font-size: 40px;
+}
+.contenido-card-atras-index input {
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background: greenyellow;
+    box-shadow: 1px 1px 2px -0px black;
+    border-radius: 10px;
+}
+.bg-index {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+}
